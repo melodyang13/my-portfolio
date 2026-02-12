@@ -12,9 +12,9 @@ import travel from "../../src/assets/cat-luggage.png";
 import photography from "../../src/assets/girl-picture.png";
 import aboutme from "../../src/assets/girl-laptop.png";
 import gal1 from "../../src/assets/gal1.JPG";
-import gal2 from "../../src/assets/gal2.JPG";
-import gal3 from "../../src/assets/gal3.JPG";
-import gal4 from "../../src/assets/gal4.JPG";
+import gal2 from "../../src/assets/gal2.jpg";
+import gal3 from "../../src/assets/gal3.jpg";
+import gal4 from "../../src/assets/gal4.jpg";
 
 export default function About() {
   // Gallery state
