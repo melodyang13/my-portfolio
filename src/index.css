@@ -1,0 +1,22 @@
+/* src/index.css or src/App.css */
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-background: #ffffff;
+    --color-foreground: #0f172a;
+  }
+
+  .dark {
+    --color-background: #0f172a;
+    --color-foreground: #f8fafc;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+/* Enable dark mode */
+@variant dark (&:where(.dark, .dark *));
