@@ -11,18 +11,20 @@ import { ThemeProvider } from "./ThemeContext";
 import ExperienceTimeline from "../components/Sections/ExperienceTimeline";
 import Navigation from '../components/Layout/Navigation';
 import Contact from '../components/Sections/Contact';
-import WordyVideo from "../src/assets/videos/WordyVideo.mp4";
-import PathoraWide from "../src/assets/videos/pathora-landscape.mp4";
-import PathoraVid from "../src/assets/videos/pathora-portrait.mp4";
 import PathoraPlaceholder from "../src/assets/pathora-mb-default.png";
 import WordyDefault from "../src/assets/wordy-default.png";
 import phHitsPlaceholder from "../src/assets/phHitsDefault.png";
-import phHitsVid from "../src/assets/videos/phHitsVid.mp4";
-import ATLVid from "../src/assets/videos/A&T-LVid.mp4";
-import ATPVid from "../src/assets/videos/A&T-PVid.mp4";
 import ATDefault from "../src/assets/ATDefault.png";
-import FlashVid from "../src/assets/videos/Flash-Vid.mp4";
 import FlashDefault from "../src/assets/FlashDefault.png";
+
+
+const WordyVideo ="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/WordyVideo.mp4";
+const PathoraWide ="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/pathora-landscape.mp4";
+const PathoraVid ="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/pathora-portrait.mp4";
+const phHitsVid="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/phHitsVid.mp4";
+const ATLVid="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/A%26T-LVid.mp4";
+const ATPVid="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/A%26T-PVid.mp4";
+const FlashVid ="https://7yemkjtgtxynnonw.public.blob.vercel-storage.com/Flash-Vid.mp4"
 const projects = [
   {
     id: 1,

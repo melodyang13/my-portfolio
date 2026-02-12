@@ -6,3 +6,5 @@ build/
 *.mp4 
 *.mov 
 src/assets/videos/ 
+.vercel
+.env*.local
